@@ -8,14 +8,14 @@
 
 A Progressive Web App for iPhone dedicated to crochet. It has step-by-step lessons, a new project every day, hundreds of free patterns collected from around the web and all the tools you need while you hook.
 
-[![Update web patterns](https://github.com/GBS10540/gomitolo/actions/workflows/update-patterns.yml/badge.svg)](https://github.com/GBS10540/gomitolo/actions/workflows/update-patterns.yml)
+[![Update web patterns](https://github.com/DaValz/Gomitolo/actions/workflows/update-patterns.yml/badge.svg)](https://github.com/DaValz/Gomitolo/actions/workflows/update-patterns.yml)
 ![PWA](https://img.shields.io/badge/PWA-installable-FF6F61?logo=pwa&logoColor=white)
 ![No build](https://img.shields.io/badge/build-none-7FD6BE)
 ![Vanilla JS](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![Languages](https://img.shields.io/badge/i18n-EN%20·%20IT-8EC5FF)
 ![MIT License](https://img.shields.io/badge/license-MIT-B7A2F5)
 
-[**Open the app →**](https://gbs10540.github.io/gomitolo/)
+[**Open the app →**](https://DaValz.github.io/Gomitolo/)
 
 🇬🇧 **English** · 🇮🇹 [Italiano](README.it.md)
 
