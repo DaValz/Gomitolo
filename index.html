@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FFF6EF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17141B" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Gomitolo">
+  <meta name="description" content="Impara l'uncinetto passo passo: progetti nuovi ogni giorno, tutorial dei punti, contagiri e strumenti.">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gomitolo · Uncinetto tascabile</title>
+</head>
+<body>
+  <main id="view" class="view"></main>
+
+  <nav class="tabbar" aria-label="Navigazione principale">
+    <a href="#/" data-tab="oggi"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M6 8.5c4 1 8 1 12 0M5 13c4.5 1.4 9.5 1.4 14 0M8 18.5c2.6.8 5.4.8 8 0"/></svg><span>Oggi</span></a>
+    <a href="#/esplora" data-tab="esplora"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>Esplora</span></a>
+    <a href="#/impara" data-tab="impara"><svg viewBox="0 0 24 24"><path d="M3 8l9-4 9 4-9 4-9-4z"/><path d="M7 10v5c3 2 7 2 10 0v-5"/></svg><span>Impara</span></a>
+    <a href="#/strumenti" data-tab="strumenti"><svg viewBox="0 0 24 24"><path d="M5 19L17 7"/><path d="M17 7c0-2 1.5-3 3-3-.2 1.6-1 3-3 3z"/><rect x="3" y="3" width="7" height="7" rx="2"/><path d="M14 14h7v7h-7z"/></svg><span>Strumenti</span></a>
+    <a href="#/io" data-tab="io"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4.5-6.5 8-6.5s7 2 8 6.5"/></svg><span>Io</span></a>
+  </nav>
+  <div id="sheet-root"></div>
+
+  <noscript>Gomitolo ha bisogno di JavaScript per funzionare.</noscript>
+  <script>
+    /* lingua: scelta salvata, altrimenti quella del dispositivo (italiano → it, tutto il resto → en) */
+    (function () {
+      var l = null; try { l = localStorage.getItem('gomitolo-lang'); } catch (e) {}
+      if (l !== 'it' && l !== 'en') l = /^it\b/i.test(navigator.language || '') ? 'it' : 'en';
+      document.documentElement.lang = l;
+      document.write('<script src="' + (l === 'en' ? 'data.en.js' : 'data.js') + '"><\/script>');
+    })();
+  </script>
+  <script src="art.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

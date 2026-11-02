@@ -1,0 +1,17 @@
+﻿{
+  "name": "Gomitolo · Uncinetto tascabile",
+  "short_name": "Gomitolo",
+  "description": "Impara l'uncinetto passo passo: progetti nuovi ogni giorno, tutorial e strumenti.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF6EF",
+  "theme_color": "#FFF6EF",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

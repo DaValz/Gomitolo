@@ -1,0 +1,40 @@
+{
+  "_info": "Feed RSS/Atom di siti con schemi gratuiti all'uncinetto. 'crochetOnly': true se il sito pubblica solo uncinetto (altrimenti si tengono solo i post che parlano di crochet). 'cat' forza la categoria.",
+  "feeds": [
+    { "name": "Moogly", "url": "https://www.mooglyblog.com/feed/", "crochetOnly": true },
+    { "name": "Repeat Crafter Me", "url": "https://www.repeatcrafterme.com/feed", "crochetOnly": true },
+    { "name": "The Crochet Crowd", "url": "https://thecrochetcrowd.com/feed/", "crochetOnly": true },
+    { "name": "All About Ami", "url": "https://www.allaboutami.com/feed/", "crochetOnly": true, "cat": "amigurumi" },
+    { "name": "Amigurumi Today", "url": "https://amigurumi.today/feed/", "crochetOnly": true, "cat": "amigurumi" },
+    { "name": "PlanetJune", "url": "https://www.planetjune.com/blog/feed/", "crochetOnly": true },
+    { "name": "Daisy Farm Crafts", "url": "https://www.daisyfarmcrafts.com/feed/", "crochetOnly": false },
+    { "name": "B.hooked Crochet", "url": "https://www.bhookedcrochet.com/feed/", "crochetOnly": true },
+    { "name": "Daily Crochet", "url": "https://www.dailycrochet.com/feed/", "crochetOnly": true },
+    { "name": "Petals to Picots", "url": "https://www.petalstopicots.com/feed/", "crochetOnly": true },
+    { "name": "Yarn & Chai", "url": "https://www.yarnandchai.com/feed/", "crochetOnly": true },
+    { "name": "Hopeful Honey", "url": "https://www.hopefulhoney.com/feed/", "crochetOnly": true },
+    { "name": "Jessie At Home", "url": "https://www.jessieathome.com/feed/", "crochetOnly": true },
+    { "name": "Crochet Kingdom", "url": "https://www.crochetkingdom.com/feed/", "crochetOnly": true },
+    { "name": "Mama In A Stitch", "url": "https://www.mamainastitch.com/feed/", "crochetOnly": false },
+    { "name": "The Lavender Chair", "url": "https://www.tlycblog.com/feed/", "crochetOnly": true },
+    { "name": "Crochet Spot", "url": "https://www.crochetspot.com/feed/", "crochetOnly": true },
+    { "name": "Look At What I Made", "url": "https://www.lookatwhatimade.net/feed/", "crochetOnly": false },
+    { "name": "Make & Do Crew", "url": "https://www.makeanddocrew.com/feed/", "crochetOnly": false },
+    { "name": "Handy Little Me", "url": "https://www.handylittleme.com/feed/", "crochetOnly": false },
+    { "name": "Sarah Maker", "url": "https://www.sarahmaker.com/feed/", "crochetOnly": false },
+    { "name": "Hooked on Homemade Happiness", "url": "https://www.hookedonhomemadehappiness.com/feed/", "crochetOnly": true },
+    { "name": "Whistle & Ivy", "url": "https://www.whistleandivy.com/feed/", "crochetOnly": true },
+    { "name": "Cypress & Sea", "url": "https://www.cypressandsea.com/feed/", "crochetOnly": false }
+  ],
+  "ravelry": {
+    "_info": "Opzionale: imposta i secret RAVELRY_USER e RAVELRY_KEY (credenziali read-only da https://www.ravelry.com/pro/developer) per aggiungere schemi gratuiti da Ravelry.",
+    "queries": [
+      "craft=crochet&availability=free&sort=recently-popular&photo=yes",
+      "craft=crochet&availability=free&sort=date&photo=yes",
+      "craft=crochet&availability=free&sort=recently-popular&pc=softies&photo=yes",
+      "craft=crochet&availability=free&sort=recently-popular&pc=blanket&photo=yes",
+      "craft=crochet&availability=free&sort=recently-popular&pc=pullover&photo=yes",
+      "craft=crochet&availability=free&sort=recently-popular&pc=bag&photo=yes"
+    ]
+  }
+}
